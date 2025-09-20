@@ -18,6 +18,7 @@ sudo apt update
 sudo apt install build-essential dkms linux-headers-$(uname -r)
 cd /media/spatha/VBox_GAs_7.1.8/
 ./autorun.sh
+```
 
 ### Yosys (Synthesis Tool)
 ```bash
@@ -33,15 +34,18 @@ make config-gcc
 git submodule update --init --recursive
 make
 sudo make install
+```
 
 ### Icarus Verilog (Simulation Tool)
 
 ```bash
 sudo apt-get update
 sudo apt-get install iverilog
+```
 
 ### GTKWave
 
 ```bash
 sudo apt-get update
 sudo apt install gtkwave
+```
